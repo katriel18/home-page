@@ -1,3 +1,4 @@
+import { PruebasComponent } from './pruebas/pruebas.component';
 import { TypographyComponent } from './typography/typography.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { AboutUsComponent } from './about-us/about-us.component';
@@ -6,8 +7,13 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
+ 
   {
     path: '',
+    component: PruebasComponent,
+  }, 
+  {
+    path: 'index',
     component: IndexComponent,
   },
   {
@@ -23,7 +29,6 @@ const routes: Routes = [
     component: TypographyComponent,
   }
 
-  //routerLink="/list" 
 ];
 
 @NgModule({

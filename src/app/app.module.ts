@@ -12,6 +12,7 @@ import { PruebasComponent } from './pruebas/pruebas.component';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import {MatIconModule} from '@angular/material/icon';
     TypographyComponent,
     ContactsComponent,
     AboutUsComponent,
-    PruebasComponent
+    PruebasComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

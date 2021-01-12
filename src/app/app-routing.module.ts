@@ -1,3 +1,4 @@
+import { HomeComponent } from './home/home.component';
 import { PruebasComponent } from './pruebas/pruebas.component';
 import { TypographyComponent } from './typography/typography.component';
 import { ContactsComponent } from './contacts/contacts.component';
@@ -11,6 +12,10 @@ const routes: Routes = [
   {
     path: '',
     component: PruebasComponent,
+  },
+  {
+    path: 'home',
+    component: HomeComponent,
   }, 
   {
     path: 'index',
